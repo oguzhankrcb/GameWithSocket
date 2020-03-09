@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RandomDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tblQuestions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Soru" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="A" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="B" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="D" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cevap" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="RandomDBModelStoreContainer">
+    <EntitySet Name="tblQuestions" EntityType="Self.tblQuestions" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
