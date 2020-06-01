@@ -6,6 +6,7 @@ Some screenshots about the program :
 
 ![Screenshot_2](https://user-images.githubusercontent.com/7572058/83446728-de7c0080-a457-11ea-8688-9848a26eebce.png)
 
+Click to image to watch youtube video about the game :
 <div align="center">
       <a href="https://www.youtube.com/watch?v=ByygDKyS9kg">
      <img 
